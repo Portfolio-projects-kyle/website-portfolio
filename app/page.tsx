@@ -128,7 +128,7 @@ export default function Home() {
                 <Divider sx={{ mb: 4, opacity: 0.1 }} />
                 <Stack spacing={3}>
                   {[
-                    { title: 'File Buddy', url: 'https://file-buddy-next-js.vercel.app/', desc: 'AI-powered document analyzer.' },
+                    { title: 'File Buddy 2.0', url: 'https://file-buddy-2-0.vercel.app/', desc: 'AI-powered document analyzer.' },
                     { title: 'Game Market', url: 'https://game-accounts-buy-an-sell.vercel.app/', desc: 'Gaming account marketplace.' }
                   ].map((project) => (
                     <Card key={project.title} sx={{ transition: 'transform 0.2s', '&:hover': { transform: 'translateY(-4px)' } }}>
